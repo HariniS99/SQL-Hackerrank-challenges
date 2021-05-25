@@ -2,3 +2,4 @@ Query the sum of the populations for all Japanese cities in CITY. The COUNTRYCOD
 
 QUERY:
 select sum(population) from city where countrycode = 'JPN';
+select sum(population) from city where countrycode like 'JPN';
