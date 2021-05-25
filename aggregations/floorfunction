@@ -1,0 +1,7 @@
+Query the average population for all cities in CITY, rounded down to the nearest integer.
+
+
+FLOOR()--Return the largest integer value that is less than or equal to the given value.
+
+QUERY:
+select floor(avg(population )) from city;
